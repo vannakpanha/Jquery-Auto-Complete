@@ -3,7 +3,7 @@
 ## Usage
 - Add all the javascript and css file into you source code
 - Write the following script
- 
+
 $('.autocomplete').autocomplete({
 
 	serviceUrl: 'http://localhost:8000/en/booking/search_customer',
