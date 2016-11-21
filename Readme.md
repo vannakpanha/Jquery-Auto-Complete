@@ -15,6 +15,7 @@ $('.autocomplete').autocomplete({
 - paramName is a variable that going to use for query in you controller
 - onSelect is the function process when we select any item 
 
-# Response 
+## Response 
 - Make sure you respon from request follow the fomate like bellow 
+
 {"suggestions":[{"value":"Sothea Su","data":1},{"value":"Chanvotey Cheng","data":2}]}
