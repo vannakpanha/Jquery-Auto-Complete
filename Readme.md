@@ -5,11 +5,17 @@
 - Write the following script
  
 $('.autocomplete').autocomplete({
+
 	serviceUrl: 'http://localhost:8000/en/booking/search_customer',
+	
 	paramName: 'name',
+	
 	onSelect: function (suggestion) {
+	
 		console.log(suggestion);
+		
 	}
+	
 });
 
 - paramName is a variable that going to use for query in you controller
